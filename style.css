@@ -168,7 +168,9 @@ a {
   color: black;
   font-size: 1.5rem;
   font-weight: bold;
-  margin-block: 10%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+
 }
 
 .autors {
@@ -191,14 +193,29 @@ a {
   background-color: #FFFFFF;
 }
 
+.profile-photo {
+  width: 30%;
+  border-radius: 50%;
+  border: black solid 1px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: 70% 50%;
+}
+
+.github {
+  color: black;
+  text-align: center;
+  width: 100%;
+}
+
 .logo {
-  width: 50%;
+  width: 30%;
   position: absolute;
-  bottom: 15%;
+  bottom: 5%;
   left: 50%;
   transform: translateX(-50%);
-
 }
+
 
 .button {
   border: 3px solid #712D2D;
@@ -226,7 +243,20 @@ a {
 
   .nadpis {
     font-size: 2rem;
-    margin-block: 30%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+  }
+
+  .profile-photo {
+    width: 40%;
+  }
+
+  .github {
+    margin-top: 15%;
+  }
+  .logo {
+    width: 40%;
+    bottom: 10%;
   }
 
 }
