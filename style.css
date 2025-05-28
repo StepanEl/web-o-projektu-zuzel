@@ -83,15 +83,22 @@ a {
   height: auto;
 }
 
-.footer--github {
+.footer {
   text-align: left;
   padding: 1rem;
   margin-top: auto;
 }
 
+.github {
+  color: #712D2D;
+  width: 20px;
+  height: 20px;
+}
+
 /*--------Autoři-------------*/
 .home {
   width: 50px;
+  margin: 10px;
 }
 
 .nadpis {
@@ -154,9 +161,9 @@ a {
     height: 500px;
   }
 
-.nadpis {
-  font-size: 2rem;
-  margin-block: 30%;
-}
+  .nadpis {
+    font-size: 2rem;
+    margin-block: 30%;
+  }
 
 }
