@@ -39,14 +39,47 @@ h1 {
 }
 
 .subname {
-  color: #712D2D
+  color: #712D2D;
+  margin-top: -20px;
+  margin-bottom: -10px;
+  font-size: 1.7rem;
+  font-weight: lighter;
 }
 
 .container__img--logo {
-  width: auto;
-  height: 50vh;
+  width: 200px;
+ 
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 200px;
+  margin: 2rem auto;
+}
+
+.cell {
+  background-color: #712D2D;
+  width: 60px;
+  aspect-ratio: 1 / 1;
+  border-radius: 4px;
+}
+
+.button-index {
+  border: 3px solid #712D2D;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  color: black;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  white-space: nowrap;
+  font-size: 1.2rem;
+}
 .nav-item,
 a {
   color: #712D2D;
