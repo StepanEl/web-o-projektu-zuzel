@@ -52,6 +52,7 @@ a {
   color: #712D2D;
   text-decoration: none;
 }
+/* ----O aplikaci-----*/
 
 .main__content {
   display: flex;
@@ -109,7 +110,6 @@ a {
   min-width: 160px;
   width: 10vw;
   height: auto;
-  border: #712D2D solid 5px;
 }
 
 .promo__img img {
@@ -192,7 +192,7 @@ a {
   border: black solid 1px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  object-position: 70% 50%;
+  object-position: 100% 70%;
 }
 
 .github {
