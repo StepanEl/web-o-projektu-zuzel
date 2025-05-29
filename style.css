@@ -72,13 +72,10 @@ h1 {
   background-color: #FFFFFF;
   color: black;
   padding: 0.5rem 1rem;
-  position: absolute;
-  bottom: 100px;
-  left: 50%;
-  transform: translateX(-50%);
-
-  white-space: nowrap;
+  display: block;
+  margin: 2rem auto 0 auto;
   font-size: 1.2rem;
+  max-width: 170px;
 }
 .nav-item,
 a {
