@@ -23,6 +23,14 @@ body {
 
 }
 
+.body__index {
+  background-image: url(img/ups.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column-reverse;
+
+}
+
 h1 {
   color: #712D2D;
   margin: 2rem;
@@ -31,11 +39,27 @@ h1 {
 
 }
 
+h2 {
+  color: #712D2D;
+  margin: 0.5rem;
+  padding: 0;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.main__container {
+  margin: 2rem;
+  margin-right: auto;
+  align-items: flex-start;
+  padding: 10px;
+  border: #712D2D solid 5px;
+}
+
 .container {
   max-width: 200rem;
   margin-right: auto;
   margin-left: auto;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .subname {
@@ -48,7 +72,7 @@ h1 {
 
 .container__img--logo {
   width: 200px;
- 
+
 }
 
 .grid {
@@ -77,11 +101,13 @@ h1 {
   font-size: 1.2rem;
   max-width: 170px;
 }
+
 .nav-item,
 a {
   color: #712D2D;
   text-decoration: none;
 }
+
 /* ----O aplikaci-----*/
 
 .main__content {
@@ -111,7 +137,7 @@ a {
   display: flex;
   flex-direction: column;
   position: relative;
-  border: #712D2D solid 3px;
+  border: #065E52 solid 5px;
   border-radius: 10px 10px 10px 0px;
   background-color: #300606;
   position: relative;
@@ -129,7 +155,7 @@ a {
 }
 
 .promo__text {
-  color: rgb(192, 167, 167);
+  color: rgb(222, 202, 202);
   text-align: center;
   font-size: 1rem;
   padding: 10px;
@@ -154,6 +180,7 @@ a {
   transform: translateX(-30%);
   width: 300px;
   z-index: 2;
+  padding: 15px;
 }
 
 
