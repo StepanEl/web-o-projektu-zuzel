@@ -1,74 +1,104 @@
 <!DOCTYPE html>
 <html lang="cs">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script type="module" src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script type="module" src="script.js"></script>
     <link
-        href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Lobster&display=swap"
-        rel="stylesheet" />
+      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
     <title>Technické informace</title>
-</head>
+  </head>
 
-<body>
-    <header>
+  <body>
+    <!--<header>
         <a href="index.html"><img class="home" src="./img/ZUZEL.png"> </a>
         <a href="autori.html" class="button">Autoři →</a>
+    </header>-->
+    <header>
+      <button id="hamburger" class="hamburger">☰ Menu</button>
+
+      <nav id="navMenu" class="menu hidden">
+        <ul>
+          <li><a href="index.html">Domů</a></li>
+          <li><a href="o-projektu.html">O projektu</a></li>
+          <li><a href="technicke-informace.html">Technické informace</a></li>
+          <li><a href="autori.html">Autorky</a></li>
+        </ul>
+      </nav>
     </header>
     <h1>Technické informace</h1>
     <main class="tech-content">
-        <section class="information">
-            <div class="data">
-                <p>Název <strong>ZUZEL</strong> vznikl od spojení mozkový uzel autorek ZUZky a ELišky.</p>
-            </div>
-            <div class="data">
-                <p>Na barvy aplikace jsme si kvůli přístupnosti udělali <strong>analýzu kontrastu</strong>. Výsledek
-                    WCAG
-                    testu je 8,3 :1.
-                </p>
-                <div class="color-grid">
-                    <div class="color-box" style="background-color: #712D2D;"></div>
-                    <div class="color-box" style="background-color: #FFE5E5;"></div>
-                </div>
-            </div>
-            <div class="data">
-                <p>Použili jsme písmo <strong>Atkinson Hyperlegible</strong>, které je speciálně navrženo tak, aby
-                    bylo co nejsrozumitelnější i pro slabozraké. </p>
-            </div>
-            <div class="data">
-                <p>Velikost textu používáme nejméně 32px. Kvůli lepší čitelnosti se vyhýbáme textu s velkými
-                    písmeny.Text vkládáme do ohraničených polích s bílým pozadím. </p>
-            </div>
-            <div class="data">
-                <p>K tlačítkům přidáváme ikony pro lepší rozpoznávání </p>
-                <img class="icons" src="./img/bottoms.png" alt="icons" />
-            </div>
-            <div class="data">
-                <p>Aplikace je pro lepší porozumění doprovázena zvuky.</p>
-            </div>
-        </section>
-        <section class="prototype">
-            <div class="prototype1">
-                <div class="headline-box">
-                    <p class="headline">První návrh aplikace</p>
-                </div>
-                <div class="image-wrapper">
-                    <img class="first-prototype" src="./img/Hlavní stránka.png" alt="První návrh" />
-                </div>
-            </div>
-            <div class="prototype2">
-                <div class="headline-box">
-                    <p class="headline">Finální návrh aplikace</p>
-                </div>
-                <div class="image-wrapper">
-                    <img class="first-prototype" src="./img/HomePage.png" alt="Finální návrh" />
-                </div>
-            </div>
-
-        </section>
-
+      <section class="information">
+        <div class="data">
+          <p>
+            Název <strong>ZUZEL</strong> vznikl od spojení mozkový uzel autorek
+            ZUZky a ELišky.
+          </p>
+        </div>
+        <div class="data">
+          <p>
+            Na barvy aplikace jsme si kvůli přístupnosti udělali
+            <strong>analýzu kontrastu</strong>. Výsledek WCAG testu je 8,3 :1.
+          </p>
+          <div class="color-grid">
+            <div class="color-box" style="background-color: #712d2d"></div>
+            <div class="color-box" style="background-color: #ffe5e5"></div>
+          </div>
+        </div>
+        <div class="data">
+          <p>
+            Použili jsme písmo <strong>Atkinson Hyperlegible</strong>, které je
+            speciálně navrženo tak, aby bylo co nejsrozumitelnější i pro
+            slabozraké.
+          </p>
+        </div>
+        <div class="data">
+          <p>
+            Velikost textu používáme nejméně 32px. Kvůli lepší čitelnosti se
+            vyhýbáme textu s velkými písmeny.Text vkládáme do ohraničených
+            polích s bílým pozadím.
+          </p>
+        </div>
+        <div class="data">
+          <p>K tlačítkům přidáváme ikony pro lepší rozpoznávání</p>
+          <img class="icons" src="./img/bottoms.png" alt="icons" />
+        </div>
+        <div class="data">
+          <p>Aplikace je pro lepší porozumění doprovázena zvuky.</p>
+        </div>
+      </section>
+      <section class="prototype">
+        <div class="prototype1">
+          <div class="headline-box">
+            <p class="headline">První návrh aplikace</p>
+          </div>
+          <div class="image-wrapper">
+            <img
+              class="first-prototype"
+              src="./img/Hlavní stránka.png"
+              alt="První návrh"
+            />
+          </div>
+        </div>
+        <div class="prototype2">
+          <div class="headline-box">
+            <p class="headline">Finální návrh aplikace</p>
+          </div>
+          <div class="image-wrapper">
+            <img
+              class="first-prototype"
+              src="./img/HomePage.png"
+              alt="Finální návrh"
+            />
+          </div>
+        </div>
+      </section>
     </main>
+  </body>
+</html>

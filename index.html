@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <title>Web o projektu ZUZEL</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <script type="module" src="script.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Lobster&display=swap"
-    rel="stylesheet" />
-  <title>Web o projektu ZUZEL</title>
-</head>
-
-<!-- <body class="body__index">
+  <!-- <body class="body__index">
    <nav class="navigation">
     <div class="" id="menu-polozky">
       <ul class="navbar">
@@ -46,17 +46,33 @@
     </main>
   </body>-->
 
+  <body class="body__index">
+    <header>
+      <button id="hamburger" class="hamburger">☰ Menu</button>
 
-<body class="body__index">
-  <main class="container">
-    <img class="container__img--logo" src="img/ZUZEL.png" alt="logo" />
-    <h3 class="subname">CVIČENÍ PAMĚTI</h3>
-    <section class="container main__container">
-    <img class="background-character" src="img/ups.jpg" alt="senior s mobilem" />
-    <h2 class="citation"> "Největší dobrodružství je najít správnou ikonku." </h2>
-    </section>
-    <a href="o-projektu.html" class="button-index">O projektu →</a>
-  </main>
-</body>
-
+      <nav id="navMenu" class="menu hidden">
+        <ul>
+          <li><a href="index.html">Domů</a></li>
+          <li><a href="o-projektu.html">O projektu</a></li>
+          <li><a href="technicke-informace.html">Technické informace</a></li>
+          <li><a href="autori.html">Autorky</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <img class="container__img--logo" src="img/ZUZEL.png" alt="logo" />
+      <h3 class="subname">CVIČENÍ PAMĚTI</h3>
+      <section class="container main__container">
+        <img
+          class="background-character"
+          src="img/ups.jpg"
+          alt="senior s mobilem"
+        />
+        <h2 class="citation">
+          "Největší dobrodružství je najít správnou ikonku."
+        </h2>
+      </section>
+      <!--<a href="o-projektu.html" class="button-index">O projektu →</a>-->
+    </main>
+  </body>
 </html>
